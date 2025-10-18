@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+.gridline {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+}
+
+.background {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)),
+        url('https://cdn.dribbble.com/userupload/42635169/file/still-874c6366735ef403409b4b981fbddc00.png?format=webp&resize=640x480&vertical=center');
+    background-size: contain;
+    background-position: center;
+    
+}
+
+/* .container {
+    background-color: rgb(255, 255, 216);
+} */
