@@ -2,7 +2,6 @@ import Button from "./components/Button"
 import Courses from "./components/Courses"
 import Navbar from "./components/Navbar"
 import { blackCanvas, coursesGrid, firstGrid, idealGrid } from "./data/data"
-import "./index.css"
 import { BsFillLightningChargeFill } from "react-icons/bs"
 
 function App() {
