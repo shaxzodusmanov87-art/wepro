@@ -16,7 +16,7 @@ const Courses = ({ type, title, time, link, color, btntext, textcolor, position 
             <h1 className={`text-3xl font-semibold group-hover:text-black ${textcolor}`}>{title}</h1>
             <p className={`group-hover:text-black ${textcolor}`}>{time}</p>
             <Button
-                title={btntext}
+                title={btntext || ""}
                 background="bg-yellow-400"
                 scrolled = {true}
             />
