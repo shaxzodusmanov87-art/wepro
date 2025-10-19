@@ -4,9 +4,9 @@ import Button from "./Button"
 const Courses = ({ type, title, time, link, color, btntext, textcolor, position }: CoursesProps) => {
     return (
         <div
-            className={`group text-black w-[400px] h-[400px] border-2 border-transparent hover:border-black ${color} hover:bg-white hover:pb-10 hover:pt-5 transition-all duration-500 rounded-[10px] p-7 flex flex-col items-start ${position}`}
+            className={`group text-black h-[400px] border-2 border-transparent hover:border-black ${color} hover:bg-white hover:pb-10 hover:pt-5 transition-all duration-500 rounded-[10px] p-7 max-sm:mx-10 flex flex-col items-start bg-no-repeat bg-cover ${position}`}
             style={{
-                backgroundImage: `url(${link})`, backgroundRepeat: "no-repeat", backgroundSize: "cover"
+                backgroundImage: `url(${link})`
             }}>
             
             
